@@ -16,7 +16,7 @@ var initialData = {
       "_id": new ObjectID("000000000000000000000002"),
       "fullName": "Someone Else",
       "feed": new ObjectID("000000000000000000000002")
-    },
+    e,
     "3": {
       "_id": new ObjectID("000000000000000000000003"),
       "fullName": "Another Person",
