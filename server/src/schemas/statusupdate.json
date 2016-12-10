@@ -1,29 +1,32 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "/",
-  "type": "object",
-  "properties": {
-    "userId": {
-      "id": "userId",
-      "type": "integer"
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "/",
+    "type": "object",
+    "properties": {
+        "userId": {
+            "id": "userId",
+            "type": "string"
+        },
+        "location": {
+            "id": "location",
+            "type": "string"
+        },
+        "contents": {
+            "id": "contents",
+            "type": "string"
+        },
+        "image": {
+            "id": "image",
+            "type": [
+                "string",
+                "null"
+            ]
+        }
     },
-    "location": {
-      "id": "location",
-      "type": "string"
-    },
-    "contents": {
-      "id": "contents",
-      "type": "string"
-    },
-    "image": {
-      "id": "image",
-      "type": ["string", "null"]
-    }
-  },
-  "additionalProperties": false,
-  "required": [
-    "userId",
-    "location",
-    "contents"
-  ]
+    "additionalProperties": false,
+    "required": [
+        "userId",
+        "location",
+        "contents"
+    ]
 }
